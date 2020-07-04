@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import {HeaderComponent} from './global/header/header.component';
 import {FooterComponent} from './global/footer/footer.component'
 import {CardsComponent} from './cards/cards.component'
+import {DemoMaterialModule} from './material-module';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, DemoMaterialModule ],
   declarations: [ AppComponent, HeaderComponent , FooterComponent ,CardsComponent],
   bootstrap:    [ AppComponent ]
 })
