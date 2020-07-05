@@ -1,12 +1,32 @@
-<div class="row no-gutters">
-          <div class ="col-lg-6" *ngFor ="let products of product">
-              <div class="portfolio-item" href="#">
-                <span class="caption">
-                  <span class="caption-content">
-                    <img src={{products.pname}}>
-                    <p class="mb-0">{{products.desc}}</p>
-                  </span>
-                </span>
-                <img class="img-fluid" src={{products.imgs}} alt="">
-              </div>
-            </div>
+<div class ="cards row no-gutters">
+    <div  class="col-lg-4" *ngFor ="let products of product">
+        <div class="card-item" href="#">
+            <span class="caption">
+                <span class="caption-content">
+                    <img src={{products.pname}} >
+                    <p class="card-text mb-4">version 1.0 •  Oct 16, 1:45PM</p>
+                    <!-- <p class="card-text">{{products.desc}}</p> -->
+               </span>
+        </span>
+    <div class="classic-tabs">
+
+    <!-- Nav tabs -->
+    <ul class="nav tabs-white nav-fill" role="tablist">
+      <li class="nav-item ml-0">
+        <a class="nav-link waves-light active" data-toggle="tab" href="#panel1001" role="tab">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" data-toggle="tab" href="#panel1002" role="tab">Details</a>
+      </li>
+    </ul>
+    <!-- <hr class="my-4"> -->
+
+     <div class="tab-content rounded-bottom">
+    <div class="tab-pane fade show active" id="panel1001" role="tabpanel">
+        <p align="justify" class="font-small text-muted mx-1">{{products.desc}}</p>
+      </div>
+      </div>
+      <button mat-button color="primary">EDIT</button>
+       <button mat-button color="primary">DELETE</button>
+  </div>
+</div>

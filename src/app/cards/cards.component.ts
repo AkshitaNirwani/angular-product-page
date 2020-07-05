@@ -23,12 +23,7 @@ export class CardsComponent{
        imgs:"https://source.unsplash.com/FUohNQatzVs/1400x900"
       
     },
-    {
-      pname : "https://www.torryharris.com/modules/mod_product_portal/img/iotglue.png",
-      desc:"A mobile enabled IoT integration platform that allows enterprises to monetize IoT investments by seamlessly gluing disparate things together. It is an API driven robust technology framework with scalable, vertical-specific solutions.",
-      imgs :"https://source.unsplash.com/JOEN3yxyD0g/1400x900"
-      
-    },
+    
     {
       pname : "https://www.torryharris.com/modules/mod_product_portal/img/conceirgebank.png",
       desc:"A marketplace-banking product by Torry Harris that helps banks worldwide to offer innovative new products to customers through an API-driven marketplace solution and a simple user interface.",
