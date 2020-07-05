@@ -3,10 +3,29 @@ p {
 }
 .top{
   display :flex;
+  margin: 20px;
+  padding: 20px;
+  h1{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 60px;
+  color:rgb(66, 65, 65);
+  }
   button{
     position : absolute;
-    right :0;
-    margin :10px;
-
+    padding: 0 7px 0 0;
+    display: inline-block;
+    right :30px;
+    margin :20px;
+    border-color: rgb(212, 207, 207);
+    font-size: 0.7rem;
+    font-weight:700;
     }
+}
+.add-btn{
+  position: relative;
+  // left: -10px;
+  display: inline-block;
+  padding: 6px 12px;
+  background: white;
+  border-radius: 0 ;
 }

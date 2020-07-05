@@ -1,0 +1,12 @@
+<div class="row no-gutters">
+          <div class ="col-lg-6" *ngFor ="let products of product">
+              <div class="portfolio-item" href="#">
+                <span class="caption">
+                  <span class="caption-content">
+                    <img src={{products.pname}}>
+                    <p class="mb-0">{{products.desc}}</p>
+                  </span>
+                </span>
+                <img class="img-fluid" src={{products.imgs}} alt="">
+              </div>
+            </div>
