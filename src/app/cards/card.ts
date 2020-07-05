@@ -1,5 +1,5 @@
 export interface products{
-  pname: string,
+  logo: string,
   desc : string,
-  imgs : string
+  ver:string
 }

@@ -3,8 +3,8 @@
         <div class="card-item" href="#">
             <span class="caption">
                 <span class="caption-content">
-                    <img src={{products.pname}} >
-                    <p class="card-text mb-4">version 1.0 •  Oct 16, 1:45PM</p>
+                    <img src={{products.logo}} >
+                    <p class="card-text mb-4">{{products.ver}} •  Oct 16, 1:45PM</p>
                     <!-- <p class="card-text">{{products.desc}}</p> -->
                </span>
         </span>
@@ -22,11 +22,16 @@
     <!-- <hr class="my-4"> -->
 
      <div class="tab-content rounded-bottom">
-    <div class="tab-pane fade show active" id="panel1001" role="tabpanel">
+    <div class="tab-pane fade in show active" id="panel1001" role="tabpanel">
         <p align="justify" class="font-small text-muted mx-1">{{products.desc}}</p>
+      </div>
+       <div class="tab-pane fade" id="panel1002" role="tabpanel">
+        <p align="justify" class="font-small text-muted mx-1">Version:{{products.ver}}</p>
       </div>
       </div>
       <button mat-button color="primary">EDIT</button>
        <button mat-button color="primary">DELETE</button>
   </div>
 </div>
+    </div>
+</div
