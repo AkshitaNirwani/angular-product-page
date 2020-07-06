@@ -13,3 +13,20 @@ img{
   font-weight: 500;
   font-family: 'Quicksand', sans-serif;
 } 
+.icon-display {
+   transform: scale(10);
+   margin: 100px 60px;
+   color:rgb(252, 252, 252);
+   align-self: center;
+}
+.add-card{
+  text-align : center;
+  h5{
+    font-weight: 600;
+    padding: 10px;
+    color:white;
+  }
+}
+.card-item2{
+  background-color: rgb(179, 175, 175);
+}

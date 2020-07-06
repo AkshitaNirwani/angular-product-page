@@ -4,34 +4,26 @@
             <span class="caption">
                 <span class="caption-content">
                     <img src={{products.logo}} >
-                    <p class="card-text mb-4">{{products.ver}} •  Oct 16, 1:45PM</p>
-                    <!-- <p class="card-text">{{products.desc}}</p> -->
+                    <p class="card-text mb-4">{{products.ver}} •  July 06, 1:45PM</p>
                </span>
         </span>
-    <div class="classic-tabs">
-
-    <!-- Nav tabs -->
-    <ul class="nav tabs-white nav-fill" role="tablist">
-      <li class="nav-item ml-0">
-        <a class="nav-link waves-light active" data-toggle="tab" href="#panel1001" role="tab">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" data-toggle="tab" href="#panel1002" role="tab">Details</a>
-      </li>
-    </ul>
-    <!-- <hr class="my-4"> -->
-
-     <div class="tab-content rounded-bottom">
-    <div class="tab-pane fade in show active" id="panel1001" role="tabpanel">
-        <p align="justify" class="font-small text-muted mx-1">{{products.desc}}</p>
-      </div>
-       <div class="tab-pane fade" id="panel1002" role="tabpanel">
-        <p align="justify" class="font-small text-muted mx-1">Version:{{products.ver}}</p>
-      </div>
-      </div>
+    <mat-tab-group mat-align-tabs="start">
+  <mat-tab label="First">{{products.desc}}</mat-tab>
+  <mat-tab label="Second">
+     <p class="card-text mb-2">Version:{{products.ver}}</p>
+       <p class="card-text mb-2">owner:THBS</p>
+        <p class="card-text mb-2">Created Date:01/01/2020</p>
+         <p class="card-text mb-2">created by:thbs</p>
+     </mat-tab>
+</mat-tab-group>
       <button mat-button color="primary">EDIT</button>
        <button mat-button color="primary">DELETE</button>
   </div>
 </div>
-    </div>
+<div class="add-card col-lg-4">
+          <div class="card-item2 card-item" href="#">
+            <mat-icon class="icon-display">add</mat-icon>
+            <h5>ADD NEW PROJECT</h5>
+          </div>
+</div>
 </div>
